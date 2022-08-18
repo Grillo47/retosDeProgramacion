@@ -6,7 +6,7 @@ package com.example.weeklychallenge2022
  */
 
 fun main(){
-    (1..100).forEach { number ->
+    (1..100).forEach { number  ->
         if (isPrime(number)) {
             println(number)
         }
